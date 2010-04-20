@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root-container name="Exception Framework" width="1315" height="512">
+  <node name="start" x="188" y="18" width="140" height="40">
+    <edge>
+      <label x="5" y="-10"/>
+    </edge>
+  </node>
+  <node name="Determine Exception Handling" x="150" y="107" width="225" height="36">
+    <edge>
+      <label x="5" y="-10"/>
+    </edge>
+    <edge>
+      <label x="5" y="-10"/>
+    </edge>
+  </node>
+  <node name="Human Task" x="55" y="186" width="132" height="36">
+    <edge>
+      <label x="5" y="-10"/>
+    </edge>
+  </node>
+  <node name="Retry" x="336" y="190" width="132" height="36">
+    <edge>
+      <label x="5" y="-10"/>
+    </edge>
+  </node>
+  <node name="Trigger Originating Process" x="142" y="279" width="247" height="36">
+    <edge>
+      <label x="5" y="-10"/>
+    </edge>
+  </node>
+  <node name="end" x="181" y="364" width="140" height="40"/>
+  <deployment serverName="" serverPort="" serverDeployer="/gpd-deployer/upload">
+    <classesAndResources/>
+    <filesAndFolders>
+      <element value="/exception_framework/src/main/jpdl/process/gpd.xml"/>
+      <element value="/exception_framework/src/main/jpdl/process/processdefinition.xml"/>
+      <element value="/exception_framework/src/main/jpdl/process/processimage.jpg"/>
+    </filesAndFolders>
+  </deployment>
+</root-container>
