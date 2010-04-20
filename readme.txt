@@ -1,5 +1,5 @@
 Project space to put together the results of a generic exception framework
-example based on jBPM version 3.2.5.SP5.
+example based on jBPM version 3.2.8 (see pom.xml for dependencies).
 
 Currently only running a test to show simple node failing, then passing exception and 
 all process context over to the Exception Framework. This framework defaults currently 
