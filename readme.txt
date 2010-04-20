@@ -6,6 +6,8 @@ all process context over to the Exception Framework. This framework defaults cur
 to a Human Task for processing the error. In our test we end this task to continue 
 processing and go back to the originating process.
 
+This project is maven enabled.
+
 TODO: State node failure example via unit test class.
  
 With my thanks to Maurice de Chateau for his contributions.
