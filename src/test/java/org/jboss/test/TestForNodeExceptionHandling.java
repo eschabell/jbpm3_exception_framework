@@ -91,7 +91,7 @@ public class TestForNodeExceptionHandling {
 	 * @throws Exception
 	 */
 	@Test
-    public void testRun() throws Exception {
+    public void testForNodeExceptionHandling() throws Exception {
          // deploy process first.
         JbpmContext jbpmCtx = jbpmConf.createJbpmContext();
         try {
