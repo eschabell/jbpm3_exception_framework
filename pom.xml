@@ -7,10 +7,17 @@
   <description>A generic jBPM exception framework.</description>
   <build>
   	<plugins>
+		<plugin>
+		        <artifactId>maven-compiler-plugin</artifactId>
+		        <configuration>
+			          <source>1.5</source>
+			          <target>1.5</target>
+	            	</configuration>
+	         </plugin>
   		<plugin>
-            <groupId>org.codehaus.mojo</groupId>
-            <artifactId>build-helper-maven-plugin</artifactId>
-            <version>1.5</version>
+            		<groupId>org.codehaus.mojo</groupId>
+            		<artifactId>build-helper-maven-plugin</artifactId>
+            		<version>1.5</version>
             <executions>
                 <execution>
                     <id>add-resource</id>
