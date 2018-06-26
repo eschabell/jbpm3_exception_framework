@@ -1,3 +1,5 @@
+Update: June 2018 - moved to [Gitlab](https://github.com/eschabell/jbpm3_exception_framework).
+
 Project space to put together the results of a generic exception framework
 example based on jBPM version 3.2.8 (see pom.xml for dependencies).
 
